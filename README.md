@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -7,7 +7,7 @@
   <style>
     body {
       background-color: #000000; /* Black background */
-      color: #ffffff;
+      color: #ffffff; /* White text */
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
@@ -15,7 +15,7 @@
     }
 
     a {
-      color: #1E90FF;
+      color: #1E90FF; /* Light blue links */
       text-decoration: none;
     }
 
@@ -32,7 +32,7 @@
 
     header h1 {
       font-size: 3em;
-      color: #FFD700; /* Gold */
+      color: #1E90FF; /* Light blue for header name */
       margin: 0 0 10px 0;
     }
 
@@ -54,7 +54,7 @@
       border-bottom: 2px solid #555;
       padding-bottom: 10px;
       margin-bottom: 15px;
-      color: #FFD700; /* Section headings gold */
+      color: #1E90FF; /* Section headings light blue */
     }
 
     ul {
@@ -73,6 +73,7 @@
   <header>
     <h1>John Santiago</h1>
     <p><strong>Aspiring Analytics Consultant | SAS • SQL • Power BI • Data Cleaning & Automation</strong></p>
+    <p>I have <strong>5 years of experience</strong> in PSSL-driven data preparation, handling data cleaning, transformation, sampling, and loading across manual and automated workflows. I also work with <strong>SAS, SQL, and Power BI projects</strong> for data validation, automation, and dashboard reporting.</p>
   </header>
 
   <!-- Tools & Skills -->
@@ -110,20 +111,20 @@
     <ul>
       <li>Tracks all completed tickets/tasks for Nexidia Admin Team, Analytic Admin Team, and Analytics Consultants Team</li>
       <li>Provides summary-level insights for management review</li>
-      <li>Used by the Lead Analytics Consultant for <strong>WBR/MBR reports</strong></li>
+      <li>Used by the Lead Analytics Consultant for <strong>WBR/MBR reports</strong> to monitor team performance and insights</li>
     </ul>
 
     <h3>4. Developer vs Non-Developer Dashboard</h3>
     <ul>
       <li>Tracks all tickets from Analytics Manila Team and Analytics India Team</li>
-      <li>Compares Analytics Developers vs Non-Developers</li>
-      <li>Uses direct JIRA connection in Power BI as the data source</li>
+      <li>Compares Analytics Developers vs Non-Developers (Non-Analytics / no coding tasks)</li>
+      <li>Uses <strong>direct JIRA connection in Power BI</strong> as the data source</li>
       <li>Highlights task distribution, completion status, and team performance</li>
     </ul>
 
     <h3>5. Indigo Forms Dashboard (Ongoing Project)</h3>
     <ul>
-      <li>Analyzes data from the Indigo Database using SQL Server Management Studio</li>
+      <li>Analyzes data from the <strong>Indigo Database</strong> using <strong>SQL Server Management Studio</strong></li>
       <li>Tracks form submissions, trends, and engagement metrics</li>
       <li>Supports operational reporting and insights for decision-making</li>
     </ul>
