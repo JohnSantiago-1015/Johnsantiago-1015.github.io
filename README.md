@@ -7,19 +7,15 @@
   <style>
     body {
       background-color: #000000; /* Black background */
-      color: #ffffff; /* White text */
+      color: #ffffff;
       font-family: Arial, sans-serif;
       margin: 0;
-      padding: 20px;
+      padding: 0;
       line-height: 1.6;
     }
 
-    h1, h2, h3 {
-      color: #ffffff;
-    }
-
     a {
-      color: #1E90FF; /* Blue links */
+      color: #1E90FF;
       text-decoration: none;
     }
 
@@ -27,33 +23,59 @@
       text-decoration: underline;
     }
 
-    hr {
-      border: 1px solid #555;
+    /* Header */
+    header {
+      text-align: center;
+      padding: 50px 20px 30px 20px;
+      background-color: #111111;
     }
 
-    .badge img {
-      margin-right: 5px;
-      vertical-align: middle;
+    header h1 {
+      font-size: 3em;
+      color: #FFD700; /* Gold */
+      margin: 0 0 10px 0;
+    }
+
+    header p {
+      font-size: 1.1em;
+      margin: 0;
+    }
+
+    /* Section container */
+    section {
+      background-color: #111111;
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 900px;
+    }
+
+    section h2 {
+      border-bottom: 2px solid #555;
+      padding-bottom: 10px;
+      margin-bottom: 15px;
+      color: #FFD700; /* Section headings gold */
     }
 
     ul {
       padding-left: 20px;
     }
 
-    section {
-      margin-bottom: 30px;
+    .badge img {
+      margin-right: 5px;
+      vertical-align: middle;
     }
   </style>
 </head>
 <body>
 
-  <!-- Header with only name -->
-  <h1>John Santiago</h1>
-  <p><strong>Aspiring Analytics Consultant | SAS • SQL • Power BI • Data Cleaning & Automation</strong></p>
-  <p>I have <strong>5 years of experience</strong> in PSSL-driven data preparation, handling data cleaning, transformation, sampling, and loading across manual and automated workflows. I also work with <strong>SAS, SQL, and Power BI projects</strong> for data validation, automation, and dashboard reporting.</p>
+  <!-- Header -->
+  <header>
+    <h1>John Santiago</h1>
+    <p><strong>Aspiring Analytics Consultant | SAS • SQL • Power BI • Data Cleaning & Automation</strong></p>
+  </header>
 
-  <hr>
-
+  <!-- Tools & Skills -->
   <section>
     <h2>🛠 Tools & Skills</h2>
     <p class="badge">
@@ -66,6 +88,7 @@
     </p>
   </section>
 
+  <!-- Projects -->
   <section>
     <h2>📊 Featured Analytics Power BI Projects</h2>
 
@@ -87,7 +110,7 @@
     <ul>
       <li>Tracks all completed tickets/tasks for Nexidia Admin Team, Analytic Admin Team, and Analytics Consultants Team</li>
       <li>Provides summary-level insights for management review</li>
-      <li>Used by the Lead Analytics Consultant for <strong>WBR/MBR reports</strong> to monitor team performance</li>
+      <li>Used by the Lead Analytics Consultant for <strong>WBR/MBR reports</strong></li>
     </ul>
 
     <h3>4. Developer vs Non-Developer Dashboard</h3>
@@ -106,6 +129,7 @@
     </ul>
   </section>
 
+  <!-- Contact -->
   <section>
     <h2>📫 Connect with me</h2>
     <ul>
