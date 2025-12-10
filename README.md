@@ -1,10 +1,8 @@
-
-
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
-  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>John Santiago - Analytics Portfolio</title>
   <style>
     body {
@@ -45,11 +43,31 @@
     section {
       margin-bottom: 30px;
     }
+
+    /* Style for name + profile picture */
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .header img {
+      width: 80px; /* Adjust size of your picture */
+      height: 80px;
+      border-radius: 50%; /* Circular image */
+      object-fit: cover;
+      border: 2px solid #ffffff;
+    }
   </style>
 </head>
 <body>
 
-  <h1>John Santiago</h1>
+  <!-- Header with picture and name -->
+  <div class="header">
+    <img src="YOUR_PICTURE_URL_HERE" alt="John Santiago">
+    <h1>John Santiago</h1>
+  </div>
+
   <p><strong>Aspiring Analytics Consultant | SAS • SQL • Power BI • Data Cleaning & Automation</strong></p>
   <p>I have <strong>5 years of experience</strong> in PSSL-driven data preparation, handling data cleaning, transformation, sampling, and loading across manual and automated workflows. I also work with <strong>SAS, SQL, and Power BI projects</strong> for data validation, automation, and dashboard reporting.</p>
 
